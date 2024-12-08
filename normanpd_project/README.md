@@ -5,6 +5,9 @@ Name: Arpita Patnaik
 # Project Description
 This project processes police incident data by performing clustering, dimensionality reduction, and generating insightful visualizations. It handles file uploads, extracts features, clusters the data into meaningful groups, and provides visual analysis through scatter plots, heatmaps, and bar charts. The project uses PCA to visualize clusters in two dimensions and includes tools to determine the optimal number of clusters.
 
+# Application video link - 
+https://drive.google.com/file/d/17LIxbcCFP_8z0oH4IaRqH7wxqY9SEbLQ/view?usp=sharing
+
 # How to Install
 ```
 $ pipenv install django
