@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+# Add dev dependencies here, if any, for example:
+# pylint = "*"
+
+[packages]
+django = "*"
+pytest = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+gunicorn = "*"
+# Define the relative path for the editable project properly
+project3 = {path = ".", editable = true}
+
+[requires]
+python_version = "3.10"

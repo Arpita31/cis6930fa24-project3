@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Incident URL</title>
+</head>
+<body>
+    <h1>Upload Incident URL</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="url">enter a URL:</label>
+        <input type="url" id="url" name="url">
+        <br><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
