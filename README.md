@@ -1,4 +1,4 @@
-# Data_visualization
+# Data visualization
 
 Name: Arpita Patnaik
 cis6930fa24 -- Project 3
